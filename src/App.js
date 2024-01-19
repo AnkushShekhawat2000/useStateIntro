@@ -5,7 +5,7 @@ import Objects from "./Components/Objects.js"
 import FormBasics from "./Components/FormBasics.js"
 import FormBasics2 from "./Components/FormBasics2.js"
 import FormValidation from "./Components/FormValidation.js"
-
+import Fruits from "./Components/Fruits.js"
 const App = () =>{
 
     return (
@@ -15,7 +15,8 @@ const App = () =>{
            {/* <Objects/> */}
            {/* <FormBasics/> */}
            {/* <FormBasics2/> */}
-           <FormValidation/>
+           {/* <FormValidation/> */}
+           <Fruits/>
         </div>
     )
 }
